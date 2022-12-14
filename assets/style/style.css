@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+
+
+/* BIO */
+.bio-img img{
+  width: 80%;
+}
+.bio .name{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.bio .logo h1{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.bio .title{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.bio .title h3{
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #06283d;
+}
+.bio .desc{
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.bio .social-icons{
+  margin-top: 40px;
+}
+.bio .social-icons a{
+  color: unset;
+  text-decoration: none;
+}
+.bio .svg-inline--fa{
+  cursor: pointer;
+  height: 1.5em;
+}
+.bio .fa-facebook-f:hover{
+  color: 	#3b5998;
+}
+.bio .fa-instagram:hover{
+  color: #c32aa3;
+}
+.bio .fa-whatsapp:hover{
+  color: #25d366	;
+}
+.bio .fa-envelope:hover{
+  color: 	#c71610;
+}
+.bio .pendidikan ul{
+  padding: 0!important;
+}
+.bio .pendidikan ul li{
+  list-style: none;
+}
+.bio .pendidikan ul li p{
+  margin-bottom: 0rem;
+}
+
+/* NAVBAR */
+.nav-link{
+  background: none!important;
+  border: none!important;
+}
+nav .nav-link.active,
+nav .nav-link:hover,
+nav .nav-link:focus {
+  color: #000!important;
+  border-bottom: 2px solid #000!important;
+  max-width: fit-content;
+}
+nav .nav{
+  margin-top: 50px;
+}
+nav .navbar-toggler, 
+nav .navbar-toggler:focus{
+  border: none;
+  box-shadow: none;
+}
+
+/* TAB MENU */
+.menu .nav-link{
+  background: none!important;
+  border: none!important;
+}
+.menu .nav-link.active,
+.menu .nav-link:hover,
+.menu .nav-link:focus {
+  color: #000!important;
+  border-bottom: 2px solid #000!important;
+}
+.menu .nav{
+  margin-top: 50px;
+}
+
+
+/* PENGALAMAN */
+.pengalaman-container .desc .profesi{
+  margin-bottom: 0rem!important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.pengalaman-container .desc .tempat{
+  font-size: 1rem;
+}
+.pengalaman-container .desc ul li{
+  font-size: 1rem;
+}
+
+/* SKILLS */
+
+.img-skill{
+  display: flex;
+  justify-content: center;
+}
+
+.img-skill img{
+  width: 30%;
+}
+
+
+/* KONTAK */
+.contact .contact-container{
+  width: 95%;
+}
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact textarea:hover {
+  transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact .submitBtn {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#06283d;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact .submitBtn:hover {
+	background:#125279;
+	transition:background-color 0.3s ease-in-out;
+}
